@@ -57,7 +57,7 @@ Also I could implement some validation for password (must meed curtain criteria)
 <script>
     function Continue()
     {
-      window.location.href = "./Registration.html";
+      window.location.href = "./RegProcessing.php";
     }
 </script>
 
