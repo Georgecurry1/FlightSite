@@ -1,0 +1,6 @@
+ to connect to sql database in cmd use these
+ cd c:\xampp\mysql\bin
+ mysql -u root
+
+
+

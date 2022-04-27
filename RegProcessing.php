@@ -122,27 +122,27 @@ Include Username, Password, FirstName, LastName, Email, Billing address-->
     <legend>Register:</legend><br>
     
     <label for="User">Username:</label><br>
-    <input type="username" id="User" name="U" value="" placeholder="Please enter Username">
+    <input type="username" name="U" value="" placeholder="Please enter Username">
     <span class="error">* <?php echo $nameErr;?></span><br><br>
 
     <label for="Pass">Password:</label><br>
-    <input type="password" id="Pass" name="P" value="" placeholder="Please enter Password">
+    <input type="password"  name="P" value="" placeholder="Please enter Password">
     <span class="error">* <?php echo $passErr;?></span><br><br>
 
     <label for="Fname">First Name:</label><br>
-    <input type="text" id="Fname" name="First" value=""placeholder="Please enter FirstName">
+    <input type="text"  name="First" value=""placeholder="Please enter FirstName">
     <span class="error">* <?php echo $fNameErr;?></span><br><br>
 
     <label for="Lname">Last Name:</label><br>
-    <input type="text" id="Lname" name="Last" value=""placeholder="Please enter Lastname">
+    <input type="text"  name="Last" value=""placeholder="Please enter Lastname">
     <span class="error">* <?php echo $LnameErr;?></span><br><br>
 
     <label for="email">Email</label><br>
-    <input type="email" id="email" name="Email" value=""placeholder="Please enter Email">
+    <input type="email" name="Email" value=""placeholder="Please enter Email">
     <span class="error">* <?php echo $emailErr;?></span><br><br>
     
     <label for="address">Billing Address</label><br>
-    <input type="text" id="address" name="Billing" value=""placeholder="Please enter Address">
+    <input type="text"  name="Billing" value=""placeholder="Please enter Address">
     <span class="error">* <?php echo $billingAddrErr;?></span><br><br>
 
     <input type="submit" value="Submit">
